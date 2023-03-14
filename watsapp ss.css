@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 690px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+header {
+    height: 130px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(18, 181, 168);
+}
+
+.icons {
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 25px;
+    color: white;
+    /* background-color: pink; */
+
+}
+span{
+    margin-left: 180px;
+}
+i{
+    margin-left: 20px;
+}
+ #group{
+    margin-left: 10px;
+}
+.menus{
+    padding-top: 25px;
+    font-size: 25px;
+    color: white;
+}
+ol{
+    display: inline-flex;
+    list-style-type: none;
+}
+li{
+    color: white;
+    font-weight: bold;
+   margin-top: 16px;
+    margin-left: 60px;
+}
+.box1{
+    height: 71px;
+    width: 100%;
+    font-size: 25px;
+    display: inline-flex;
+    /* border: 2px solid black; */
+}
+.box1 i{
+    font-size: 40px;
+    margin-top: 15px;
+}
+img,.imgbox{
+    height:60px;
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 10px; 
+    border-radius: 100%;
+     /* background-image: url(/images/lion.jpg); */
+}
+.name{
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+p{line-height: 40px;
+    color: gray;
+    font-size: medium;
+}
+.time{
+    font-size: medium;
+    margin-left: 310px;
+    margin-top: -25px;
+    color: gray;
+}
