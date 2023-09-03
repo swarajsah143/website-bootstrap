@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(/food.jpeg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    padding-top: 20px;
+
+}
+
+nav {
+    height: 55px;
+    width: 1100px;
+    margin-left: 30px;
+    /* background-color: aqua; */
+    border-radius: 20px;
+
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+
+}
+
+ol li {
+    margin-left: 90px;
+    margin-top: 8px;
+    font-size: 35px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+ol li a:hover {
+    color: rgb(75, 200, 237);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile-pic {
+    height: auto;
+    width: 300px;
+    /* border: 4px solid white; */
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1,
+.box2,
+.box3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6 {
+    height: 200px;
+    width: 200px;
+    border: 4px solid black;
+    margin-top: 15px;
+    border-radius: 100%;
+    margin-right: 20px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 10px rgba(94, 7, 182, 0.4);
+
+}
+
+.pic-last {
+    height: 200px;
+    width: 200px;
+    border: 4px solid black;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: 68px;
+    background-position: center;
+    background-size: cover;
+}
+
+.pic1 {
+    background-image: url(/swaraj1.jpg);
+}
+
+.pic2 {
+    background-image: url(/swaraj2.jpg);
+}
+
+.pic3 {
+    background-image: url(/R.jpeg);
+}
+
+.pic4 {
+    background-image: url(/R.jpeg);
+}
+
+.pic5 {
+    background-image: url(/R.jpeg);
+}
+
+.pic6 {
+    background-image: url(/R.jpeg);
+}
+
+.pic-last {
+    background-image: url(/R.jpeg);
+}
+
+.food-list {
+    position: absolute;
+    top: 17%;
+    left: 14%;
+    color: greenyellow;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.button-container ol {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 25%;
+}
+
+.button-container ol li {
+    list-style-type: decimal;
+    color: white;
+    /* background-color: pink; */
+}
+
+button {
+    height: 50px;
+    width: 180px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 13px rgba(96, 161, 164, 0.833);
+    /* Define the shadow properties */
+
+    background-color: aqua;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+button a {
+    color: black;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+.col-4 {
+    position: absolute;
+    margin-top: 5px;
+    top: 100%;
+    left: 33%;
+}
